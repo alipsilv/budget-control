@@ -1,0 +1,4 @@
+[
+  { "id": 1, "description": "wage", "value": 1000 , "repeat": "weekly" },
+  { "id": 2, "description": "investment profit", "value": 50 , "repeat": "monthly"}
+]

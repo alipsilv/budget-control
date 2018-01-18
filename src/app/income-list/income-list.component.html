@@ -1,0 +1,11 @@
+
+<app-income-form></app-income-form>
+
+<h2>My Incomes</h2>
+
+<table class="table">
+    <tr *ngFor="let income of incomes">
+        <td><span>{{income.description}}</span></td>
+        <td><span>{{income.value | currency}}</span></td>
+    </tr>
+</table>
